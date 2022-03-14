@@ -1,0 +1,146 @@
+
+                                  /*Assigment-4*/
+
+*
+{
+  padding:0px;
+  margin:0px;
+}
+
+body
+{
+  background-color:whitesmoke;
+}
+
+.right
+{
+  display:flex;
+  justify-content:space-between;
+  height:40px;
+}
+
+.right ul
+{
+  display:flex;
+  list-style:none;
+}
+
+.right ul li a
+{
+  display:flex;
+  text-decoration:none;
+  color:#000000;
+  font-family:arial;
+  padding:11px 10px 11px 10px;
+}
+
+h2
+{
+  font-family:arial;
+  letter-spacing:-0.5px;
+  color:#606060;
+  padding:8px 0px 0px 5px;
+}
+
+.right ul li a:hover
+{
+  color:blue;
+}
+
+.right ul li a:active
+{
+  color:red;
+}
+
+.relative img
+{
+  width:100%;
+  height:400px;
+}
+
+.relative
+{
+  position:relative;
+}
+
+.absolute
+{
+  position:absolute;
+  top:200px;
+  right:15%;
+  width:190px;
+  height:150px;
+  background-color:#BE5A52;
+  opacity:0.8;
+}
+
+.font1
+{
+  padding:25px 0px 6px 8px;
+  font-family:arial;
+  font-weight:bold;
+  letter-spacing:-0.5px;
+  color:#606060;
+  opacity:1;
+}
+
+.font2
+{
+  padding:1px 0px 8px 8px;
+  font-family:arial;
+  font-weight:bold;
+  color:#FFFFFF;
+  opacity:1;
+}
+
+h3
+{
+  padding:5px 0px 5px 0px;
+  font-family:arial;
+  font-weight:unset;
+  color:#404040;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  letter-spacing:-1px;
+}
+
+.main
+{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+}
+
+.item-left
+{
+  width:25%;
+  height:150px;
+  padding:10px 120x 20px 100px;
+  margin:30px 150px 10px 125px;
+
+}
+
+.item-right
+{
+  width:25%;
+  height:150ps;
+  padding:10px 120x 20px 100px;
+  margin:30px 150px 10px 125px;
+}
+
+h4
+{
+  font-family:arial;
+  font-weight:bold;
+  color:#808080;
+  padding:10px 0px 0px 0px;
+  text-anchor: 10px;
+}
+
+p
+{
+  font-family:arial;
+  letter-spacing:-0.5px;
+}

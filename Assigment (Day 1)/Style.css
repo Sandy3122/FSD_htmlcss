@@ -1,0 +1,71 @@
+body
+{
+	background: url("https://images.unsplash.com/photo-1635983936376-154277d90673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+h1
+{
+	text-align:center; color:white;
+}
+
+th,td
+{
+	color:white;
+}
+
+input[type=text],input[type=email],input[type=password],input[type=number],input[list]
+{
+	width: 140%;
+	height:18px;
+	border-radius:10px;
+	margin: 10px;
+	background-color:transparent;
+	border: 0.5px solid white;
+	color:white;
+}
+
+fieldset
+{
+	border-radius:20px ;width:600px; 
+
+}
+
+legend
+{
+	text-align:center; color:white;
+}
+
+textarea
+{
+	width:200px;
+	height:100px;
+	background:transparent;
+	color:white;
+	box-sizing: border-box;
+	border:0.5px solid white;
+	border-radius:10px;
+	margin:10px;
+	padding: 12px 20px;
+
+}
+
+input[type=submit]
+{
+  background-color:transparent;
+  border: 0.5px solid white;
+  color: white;
+  border-radius:10px;
+  padding: 10px 20px;
+  font-size:16px;
+
+}
+
+table
+{
+	text-align:left;
+}
+

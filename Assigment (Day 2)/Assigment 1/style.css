@@ -1,0 +1,146 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+body
+{
+	background-image: url("https://images.unsplash.com/photo-1577985051167-0d49eec21977?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1789&q=80");
+	background-size:cover;
+	background-repeat:no-repeat;
+	box-sizing:border-box;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+h4
+{
+	font-family:Lucida Handwriting;
+	font-weight:normal;
+	float:left;
+	margin:20px 10px;
+	color:#fff;
+}
+
+.menu-bar
+{
+	background:rgba(105,105,105,0.9);
+	text-align:center;
+}
+
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	color:#000000; /*BY Default It Is Black*/
+}
+
+.menu-bar ul li
+{
+	width:120px;
+	margin:10px;
+	padding:10px;
+}
+
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+.active, .menu-bar ul li:hover
+{
+	background:#DAA520;
+	border-radius:4px;
+}
+
+/* icons styling */
+
+.home
+{
+	width:15px;
+	height:15px;
+	margin-right:4px;
+	margin-top:2px;
+}
+
+.left
+{
+	width:12px;
+	height:12px;
+	margin-left:4px;
+	margin-top:2px;
+}
+
+
+.sub-menu-1
+{
+	display:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:rgba(105,105,105,0.9);
+	margin-top:11px;
+	border-radius:8px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:11px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom:1px solid #000000; /*Black Color*/
+	background:transparent;
+	text-align:left;	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+}
+
+.menu-bar ul li .sub-menu-1 ul li a:hover
+{
+	color:#FFFFFF; /*White Color*/
+}
+
+.sub-menu-2
+{
+	display:none;
+}
+
+.hover-me:hover .sub-menu-2 
+{
+	display:block;
+	position:absolute;
+	margin-top:-40px;
+	background:rgba(105,105,105,0.9);
+	margin-left:140px;
+	border-radius:8px;
+}
+
+.sub-menu-3
+{
+	display:none;
+}
+
+.hover-me-again:hover .sub-menu-3 
+{
+	display:block;
+	position:absolute;
+	margin-top:-40px;
+	background:rgba(105,105,105,0.9);
+	margin-left:-220px;
+	border-radius:8px;
+}

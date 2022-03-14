@@ -1,0 +1,174 @@
+                        <!-- Assignment 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Form with table</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+ <link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+<body>
+
+<h1>Registration Form</h1>
+
+  <center>
+
+    <fieldset><table>
+
+      <legend><h3><i>Personal Details</i></h3></legend>
+
+    <tr>
+
+      <th>First Name :</th>
+      <th><input type="text" name="fname"></th>
+
+    </tr>
+
+    <tr>
+
+      <th>Last Name :</th>
+      <th><input type="text" name="lname"></th>
+
+    </tr>
+
+    <tr>
+
+      <th>E-mail Id :</th>
+      <th><input type="email" name="email"></th>
+
+    </tr>
+
+    <tr>
+
+      <th> Contact No. :</th>
+      <th ><input type="number" name="number"></th>
+
+    </tr>
+
+    <tr>
+
+      <td> Gender :</td>
+      <td><input type="radio" name="gender">Male
+          <input type="radio" name="gender">Female
+          <input type="radio" name="gender">Others
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <th>Password :</th>
+      <th ><input type="password" name="password"></th>
+
+    </tr>
+
+    <tr>
+
+      <th>Confirm Password :</th>
+      <th ><input type="text" name="password"></th>
+
+    </tr>
+
+    </fieldset><br><br>
+
+  </table></center><br><br>
+
+  <center><fieldset><table>
+    
+
+      <legend><h3><i>Education Qualification </i></h3></legend>
+
+      <tr>
+        
+        <th>Qualification :</th>        
+             <th><input list="Qc">
+                 <datalist id="Qc">
+                    <select id="Qc">
+                      <option value="10th">10th</option>
+                      <option value="Intermediate">Intermediate</option>
+                      <option value="ITI">ITI</option>
+                      <option value="Diploma">Diploma</option>
+                      <option value="B.tech">B.tech</option>
+                      <option value="M.tech">M.tech</option>
+                    </select>
+                  </datalist>
+              </th>
+
+      </tr>
+
+      <tr>
+        
+        <th>Branch :</th>        
+             <th><input list="branch">
+                 <datalist id="branch">
+                    <select id="branch">
+                      <option value="Automobile Eng">Automobile Eng</option>
+                      <option value="Computer Science Eng">Computer Science Eng</option>
+                      <option value="Electricak And Electronics Eng">Electricak And Electronics Eng</option>
+                      <option value="Electronics And Communication Eng">Electronics And Communication Eng</option>
+                      <option value="Mechanical Eng">Mechanical Eng</option>
+                    </select>
+                  </datalist>
+              </th>
+
+      </tr>
+
+      <tr>
+
+        <th>Hobbies :</th>
+        <th><input type="checkbox" name="Hobbies">Drawing</th>
+        <th><input type="checkbox" name="Hobbies">Playing Chess</th>
+       
+
+      </tr>
+
+
+    </fieldset>
+
+
+  </table></center><br><br>
+
+  <center><fieldset><table>
+
+    <legend><h3><i> Address </i></h3></legend>
+
+    <tr>
+      <th>Address :</th>
+
+      <th><textarea placeholder="Address" color="white"></textarea></th>
+
+    </tr>
+
+</fieldset>
+
+  </table>
+
+     </center><br>
+
+
+     <center>
+
+      <table>
+
+        <tr>
+
+          <th>Attach File :</th>
+          <th><input type="file" name="file"></th>
+
+        </tr>
+
+      </table><br>
+
+      <form>
+
+     <input type="submit" name="SUBMIT">
+
+     </center>
+  </form>
+
+</body>
+
+</html>
